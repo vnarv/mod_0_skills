@@ -1,0 +1,15 @@
+Class: Sauce
+
+Attributes:
+
+name (string)
+isSavory (boolean)
+inventory (integer)
+dishesThatUse (integer)
+
+Methods:
+
+addSugar (changes the isSavory attribute, also the dishesThatUse attribute)
+useInDish (changes the inventory attribute)
+modifyRecipe (changes the name attribute, and the dishesThatUse attribute)
+remake (changes the inventory attribute)
