@@ -1,0 +1,15 @@
+Object: redSauce
+
+Attributes:
+
+name: "Marinara"
+isSavory: true
+inventory : 3
+dishesThatUse: 2
+
+Methods:
+
+addSugar: isSavory = false dishesThatUse: 1
+useInDish: inventory: 1
+modifyRecipe: name: "ketchup" dishesThatUse: 1
+remake: inventory: 3
