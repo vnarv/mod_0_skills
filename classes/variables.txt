@@ -1,0 +1,14 @@
+var food = pizza;
+var is_delicious = true;
+
+food = "burger";
+
+var num2 = 2;
+
+var num7 = 4;
+
+var quotient = num7 / num2;
+
+var songs = ["Fee", "Harry Hood", "Stash"];
+
+console.log(songs.slice(1, 3));
