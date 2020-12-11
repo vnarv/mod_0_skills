@@ -1,0 +1,14 @@
+Object: sauteePan
+
+Attributes:
+
+diameter: 12
+handleType: "Wood"
+dishThatCalls: "Blackened Tilapia"
+maxTemp (integer): 500
+
+Methods:
+
+useForSteak (modifies dishThatCalls)
+washUtensil: maxTemp 0 
+useGloves: MaxTemp: 1000
