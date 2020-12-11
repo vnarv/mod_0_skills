@@ -1,0 +1,14 @@
+Class: Pan
+
+Attributes:
+
+diameter (integer)
+handleType (string)
+dishThatCalls (string)
+maxTemp (integer)
+
+Methods:
+
+useForSteak (modifies dishThatCalls)
+washUtensil (modifies maxTemp)
+useGloves (modifies maxTemp)
