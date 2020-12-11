@@ -10,6 +10,6 @@ dishesThatUse (integer)
 Methods:
 
 addSugar (changes the isSavory attribute, also the dishesThatUse attribute)
-useInDish (changes the inventory attribute)
-modifyRecipe (changes the name attribute, and the dishesThatUse attribute)
+useInDish (subtracts 1 from current inventory)
+modifyRecipe (changes the name attribute to a new string, and the dishesThatUse attribute decreases by 1)
 remake (changes the inventory attribute)
